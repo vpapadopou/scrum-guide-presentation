@@ -1,0 +1,46 @@
+\documentclass[aspectratio=169,xcolor=dvipsnames,handout]{beamer}
+
+\usepackage{array}
+\usepackage{graphicx}
+
+\usetheme{Luebeck}
+
+\definecolor{ScrumBlue}{HTML}{3D7B97} % Scrum Blue (primary)
+\definecolor{JetGray}{HTML}{343434} % Jet Gray (secondary)
+
+\setbeamercolor{palette primary}{bg=ScrumBlue,fg=white}
+\setbeamercolor{palette secondary}{bg=ScrumBlue,fg=white}
+\setbeamercolor{palette tertiary}{bg=JetGray,fg=white}
+\setbeamercolor{palette quaternary}{bg=JetGray,fg=white}
+
+\setbeamercolor{structure}{fg=ScrumBlue}
+\setbeamercolor{section in toc}{fg=ScrumBlue}
+\setbeamercolor{subsection in head/foot}{bg=JetGray,fg=white}
+
+\useoutertheme[subsection=false]{miniframes}
+
+\title[Introduction to Scrum - Part II]{Introduction to Scrum - Part II}
+\subtitle{Theory, Processes, Relationships}
+\author{Vasileios Papadopoulos}
+\institute[]{}
+\date{\today}
+
+\begin{document}
+
+    \begin{frame}
+    	\titlepage
+    \end{frame}
+
+    \input{sections/theory.tex}
+
+    \input{sections/product-backlog.tex}
+
+    \input{sections/sprint.tex}
+
+    \input{sections/evaluating-progress.tex}
+
+    \input{sections/definition-of-done.tex}
+
+    \input{sections/conclusion.tex}
+
+\end{document}

@@ -1,0 +1,44 @@
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+
+\usepackage{array}
+\usepackage{graphicx}
+
+\usetheme{Luebeck}
+
+\definecolor{ScrumBlue}{HTML}{3D7B97} % Scrum Blue (primary)
+\definecolor{JetGray}{HTML}{343434} % Jet Gray (secondary)
+
+\setbeamercolor{palette primary}{bg=ScrumBlue,fg=white}
+\setbeamercolor{palette secondary}{bg=ScrumBlue,fg=white}
+\setbeamercolor{palette tertiary}{bg=JetGray,fg=white}
+\setbeamercolor{palette quaternary}{bg=JetGray,fg=white}
+
+\setbeamercolor{structure}{fg=ScrumBlue}
+\setbeamercolor{section in toc}{fg=ScrumBlue}
+\setbeamercolor{subsection in head/foot}{bg=JetGray,fg=white}
+
+\useoutertheme[subsection=false]{miniframes}
+
+\title[Introduction to Scrum - Part I]{Introduction to Scrum - Part I}
+\subtitle{Key Concepts, Roles, Artifacts and Rules}
+\author{Vasileios Papadopoulos}
+\institute[]{}
+\date{\today}
+
+\begin{document}
+
+    \begin{frame}
+    	\titlepage
+    \end{frame}
+    
+    \input{sections/introduction.tex}
+    
+    \input{sections/roles.tex}
+    
+    \input{sections/events.tex}
+    
+    \input{sections/artifacts.tex}
+    
+    \input{sections/conclusion.tex}
+
+\end{document}
