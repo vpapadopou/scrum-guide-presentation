@@ -1,6 +1,6 @@
 ## Introduction to Scrum
 
-Current version: 1.0
+Current version: 2.0
 
 Part I: [Link](https://github.com/vpapadopou/scrum-guide-presentation/raw/master/Introduction%20to%20Scrum%20-%20Part%20I/Introduction%20to%20Scrum%20-%20Part%20I.pdf)
 

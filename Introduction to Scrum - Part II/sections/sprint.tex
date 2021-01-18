@@ -2,31 +2,15 @@
 \subsection{}
 
 \begin{frame}
-    \frametitle{Sprint Planning}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            Sprint Planning answers the following:
-            \vspace{1em}
-            \begin{itemize}
-                \setlength\itemsep{0.7em}
-                \item What can be delivered in the Increment resulting from the upcoming Sprint?
-                \item How will the work needed to deliver the Increment be achieved?
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \visible<2->{
-                \begin{block}{Meeting Input}
-                    \begin{itemize}
-                        \setlength\itemsep{0.7em}
-                        \item The Product Backlog
-                        \item The latest Product Increment
-                        \item Projected capacity of the Development Team
-                        \item Past Performance of the Development Team
-                    \end{itemize}
-                \end{block}
-            }
-        \end{column}
-    \end{columns}
+	\frametitle{Sprint Planning}
+	Sprint Planning answers the following:
+	\vspace{1em}
+	\begin{itemize}
+		\setlength\itemsep{0.7em}
+		\item \textbf{Why} is this Sprint valuable?
+		\item \textbf{What} can be Done this Sprint?
+		\item \textbf{How} will the chosen work get done?
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -34,102 +18,75 @@
     \begin{itemize}
         \setlength\itemsep{0.7em}
         \item<1-> \textbf{Step 1}\\
-        The Product Owner discusses the objective that the Sprint should achieve and the Product Backlog Items that, if completed in the Sprint, would achieve the Sprint Goal
+        The Product Owner proposes how the product could increase its value and utility in the current Sprint. The whole Scrum Team then collaborates to define a \textit{Sprint Goal}
         \item<2-> \textbf{Step 2}\\
-        The Development Team selects a number of items to be built during the Sprint and adds them to the \textit{Sprint Backlog}
-        \item<3-> \textbf{Step 3}\\
-        During Sprint Planning the Development team also crafts a \textit{Sprint Goal}
+        Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint. The Scrum Team may refine these items during this process, which increases understanding and confidence
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     \frametitle{Sprint Planning}
-    \begin{block}{Sprint Goal}
-        \begin{itemize}
-            \setlength\itemsep{0.7em}
-            \item An \textbf{objective} that will be met within the Sprint through the implementation of the Product Backlog
-            \item Provides guidance to the Development Team on \textit{why} it is building the Increment
-        \end{itemize}
-    \end{block}
-    \vspace{1em}
     \begin{itemize}
         \setlength\itemsep{0.7em}
-        \item<2-> \textbf{Step 4}\\
-        The Development Team decides \textit{how} it will build this functionality into a ``Done'' product Increment during the Sprint
-    \end{itemize}
-\end{frame}
-    
-\begin{frame}
-    \frametitle{Sprint Planning}
-    \begin{alertblock}{Important}
-        The number of items selected from the Product Backlog for the Sprint is \textbf{solely} up to the Development Team
-    \end{alertblock}
-    \vspace{1em}
-    \begin{itemize}
-        \setlength\itemsep{0.7em}
-        \item<2-> The Product Owner can help to clarify the selected Product Backlog items and make trade-offs
-        \item<2-> If the Development Team determines it has too much or too little work, it may renegotiate the selected Product Backlog items with the Product Owner
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Cancelling a Sprint}
-    \begin{itemize}
-        \setlength\itemsep{0.7em}
-        \item A Sprint should be cancelled if it no longer makes sense given the circumstances
-        \item \textbf{Only} the Product Owner has the authority to cancel the Sprint
-        \item They may however do so under influence from the stakeholders, the Development Team or the Scrum Master
+        \item \textbf{Step 3}\\
+        For each selected Product Backlog item, the Developers plan the work necessary to create an Increment that meets the Definition of Done
     \end{itemize}
     \visible<2-> {
         \vspace{1em}
         \begin{alertblock}{Important}
-            Sprint cancellations are often traumatic to the Scrum Team and should be avoided
+            How Developers will plan to turn Product Backlog items into Increments of value is at their \textbf{sole} discretion
         \end{alertblock}
     }
 \end{frame}
 
 \begin{frame}
-    \frametitle{Cancelling a Sprint}
-    When a Sprint is cancelled:
-    \vspace{1em}
-    \begin{itemize}
-        \setlength\itemsep{0.7em}
-        \item Any completed and ``Done'' Product Backlog items are reviewed
-        \item If part of the work is potentially releasable, the Product Owner typically accepts it
-        \item All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog
-    \end{itemize}
+    \frametitle{Sprint Planning}
+    \begin{block}{Sprint Backlog}
+        \begin{itemize}
+            \setlength\itemsep{0.7em}
+            \item The Sprint Goal (why)
+            \item The set of Product Backlog items selected for the Sprint (what)
+            \item An actionable plan for delivering the Increment (how)
+        \end{itemize}
+    \end{block}
+    \visible<2-> {
+        \vspace{0.2em}
+        \begin{itemize}
+            \setlength\itemsep{0.7em}
+            \item Highly visible, \textit{real-time} picture of the work that the Developers plan to accomplish during the Sprint in order to achieve the Sprint Goal
+            \item Updated throughout the Sprint as more is learned
+            \item Should have enough detail so progress can be inspected during the Daily Scrum
+        \end{itemize}
+    }
+\end{frame}
+
+\begin{frame}
+	\frametitle{Sprint Backlog}
+	\begin{block}{Sprint Goal}
+		\begin{itemize}
+			\setlength\itemsep{0.7em}
+			\item Single objective for the Sprint
+            \item Creates coherence and focus
+            \item Encourages the Scrum Team to work together rather than on separate initiatives
+            \item Provides flexibility to the Developers in terms of the exact work needed to achieve it
+		\end{itemize}
+    \end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Sprint Backlog}
+	\begin{alertblock}{Important}
+		As Developers work during the Sprint, they keep the Sprint Goal in mind. If the work turns out to be different than they expected, they collaborate with the Product Owner to negotiate the scope of the Sprint Backlog within the Sprint \textbf{without} affecting the Sprint Goal
+	\end{alertblock}
 \end{frame}
 
 \begin{frame}
     \frametitle{Sprint Review}
     \begin{itemize}
         \setlength\itemsep{0.7em}
-        \item During the Sprint Review, the Scrum Team and stakeholders collaborate about what was done in the Sprint
-        \item An informal meeting
-        \item The presentation of the Increment is intended to elicit feedback and foster collaboration
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Sprint Review}
-    \begin{itemize}
-        \setlength\itemsep{0.7em}
-        \item<1-> \textbf{Step 1}\\
-        The Product Owner explains what Product Backlog items have been ``Done'' and what has not been ``Done''
-        \item<2-> \textbf{Step 2}\\
-        The Development Team discusses what went well during the Sprint, what problems it ran into and how those problems were solved
-        \item<3-> \textbf{Step 3}\\
-        The Development Team demonstrates the work that it has ``Done'' and answers questions about the Increment
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Sprint Review}
-    \begin{itemize}
-        \setlength\itemsep{0.7em}
-        \item<1-> \textbf{Step 4}\\
-        The Product Owner discusses the Product Backlog as it stands. If necessary, they project likely target and delivery dates based on progress to date
-        \item<2-> \textbf{Step 5}\\
-        The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning
+        \item The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed
+        \item Attendees then examine what has changed in their environment and collaborate on what to do next
+        \item<2-> The Sprint Review is a \textbf{working session} and the Scrum Team should avoid limiting it to a presentation
+	    \item<2-> The Product Backlog may be adjusted following the Sprint Review to meet new opportunities
     \end{itemize}
 \end{frame}
