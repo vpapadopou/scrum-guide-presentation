@@ -21,10 +21,10 @@
 				\begin{block}{Key Characteristics}
 					\begin{itemize}
 						\setlength\itemsep{0.7em}
+						\item Enable the transparency required
 						\item Create regularity
 						\item Minimize the need for meetings not defined in Scrum
-						\item Time-boxed
-						\item Each event is an opportunity to inspect and adapt something
+						\item Each event is a formal opportunity to inspect and adapt Scrum artifacts
 					\end{itemize}
 				\end{block}
 			}
@@ -39,7 +39,7 @@
 		\item Acts as a container for all other events
 		\item Duration: One month or less (consistency is important)
 		\item A new sprint starts immediately after the conclusion of the previous Sprint
-		\item A ``Done'', potentially releasable product increment is created
+		\item Sprints enable predictability by ensuring inspection and adaptation of progress toward a Product Goal \textit{at least} every calendar month
 	\end{itemize}
 \end{frame}
 
@@ -49,9 +49,10 @@
 	\vspace{1em}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item No changes that would endanger the Sprint Goal
-		\item Quality goals do not decrease
-		\item Scope may be clarified and re-negotiated between the Product Owner and the Development Team as more is learned
+		\item No changes are made that would endanger the Sprint Goal
+		\item Quality does not decrease
+		\item The Product Backlog is refined as needed
+		\item Scope may be clarified and renegotiated with the Product Owner as more is learned
 	\end{itemize}
 \end{frame}
 
@@ -68,13 +69,14 @@
 \begin{frame}
 	\frametitle{Sprint Planning}
 	\begin{block}{Key Concept}
-		During Sprint Planning, the Scrum Team collaborates and creates a plan for the next Sprint
+		Sprint Planning initiates the Sprint by laying out the work to be performed
 	\end{block}
 	\vspace{0.5em}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item What can be delivered in the Increment resulting from the upcoming Sprint?
-		\item How will the work needed to deliver the Increment be achieved?
+		\item Why is this Sprint valuable?
+	  \item What can be Done this Sprint?
+	  \item How will the chosen work get done?
 		\item Max duration: 8 hours for a one-month Sprint
 		\item Attendees: All Scrum Team members
 	\end{itemize}
@@ -84,9 +86,9 @@
 	\frametitle{Sprint Planning}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item The number of items selected from the Product Backlog for the Sprint is \textbf{solely} up to the Development Team
-		\item The Product Owner can help to clarify selected Product Backlog Items and make trade-offs
-		\item The Development Team may renegotiate selected Product Backlog Items with the Product Owner
+		\item The Product Owner ensures that attendees are \textit{prepared} to discuss the most important Product Backlog items and how they map to the Product Goal
+		\item The Scrum Team may refine Product Backlog items during Sprint Planning to increase its understanding and confidence
+		\item Developers will become more confident in their Sprint forecasts as they learn more about their performance, upcoming capacity and the Definition of Done
 	\end{itemize}
 \end{frame}
 
@@ -96,17 +98,20 @@
 		\begin{column}{0.5\textwidth}
 			\begin{itemize}
 				\setlength\itemsep{0.7em}
-				\item The Development Team may invite other people to attend to provide technical or domain advice
-				\item Output of Sprint Planning: \textit{Sprint Backlog} and \textit{Sprint Goal}
+				\item The Scrum Team may invite other people to attend the Sprint Planning to provide advice
+				\item It is solely up to the Developers to plan how to turn Product Backlog items to an Increment that meets the Definition of Done
+				\item Output of Sprint Planning: \textit{Sprint Backlog}
 			\end{itemize}
 		\end{column}
 		\begin{column}{0.5\textwidth}
 			\visible<2->{
 				\begin{block}{Sprint Backlog}
-					A set of Product Backlog Items selected for this Sprint plus, a plan for delivering them
-				\end{block}
-				\begin{block}{Sprint Goal}
-					An objective that will be met within the Sprint through the implementation of the selected Product Backlog Items
+					\begin{itemize}
+						\item The Sprint Goal\\
+						(communicates why the Sprint is valuable to stakeholders)
+						\item The Product Backlog items selected for the Sprint
+						\item A plan for delivering them
+					\end{itemize}
 				\end{block}
 			}
 		\end{column}
@@ -116,14 +121,14 @@
 \begin{frame}
 	\frametitle{Daily Scrum}
 	\begin{block}{Key Concept}
-		During the Daily Scrum, the Development Team plans work for the next 24 hours
+		Inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary
 	\end{block}
 	\vspace{0.5em}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item Held every day of the Sprint at the same place and time
+		\item Held every working day of the Sprint at the same place and time
 		\item Max duration: 15 minutes
-		\item Attendees: All Development Team members
+		\item Attendees: All Developers
 	\end{itemize}
 \end{frame}
 
@@ -131,13 +136,13 @@
 	\frametitle{Daily Scrum}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item The Daily Scrum is an internal meeting for the Development Team. If others are present, the Scrum Master ensures they \textbf{do not disrupt} the meeting
-		\item The Development Team or team members often meet immediately after the Daily Scrum for related discussions
+		\item If the Product Owner or Scrum Master are actively working on items in the Sprint Backlog, they participate as Developers
+		\item Developers can select whatever structure and techniques they want as long as their Daily Scrum focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work
 	\end{itemize}
 	\visible<2->{
-		\vspace{1em}
+		\vspace{0.5em}
 		\begin{alertblock}{Important}
-			The Scrum Master ensures that the Development Team has the meeting but the Development Team is responsible for conducting the Daily Scrum
+			The Daily Scrum is not the only time Developers are allowed to adjust their plan. They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint's work
 		\end{alertblock}
 	}
 \end{frame}
@@ -146,11 +151,10 @@
 	\frametitle{Daily Scrum}
 	\begin{exampleblock}{Benefits}
 		\begin{itemize}
-			\item Improve communications
-			\item Eliminate other meetings
-			\item Identify impediments to development for removal
-			\item Highlight and promote quick decision-making
-			\item Improve the Development Team's level of knowledge
+			\item Improve communication
+			\item Identify impediments
+			\item Promote quick decision-making
+			\item Eliminate the need for other meetings
 		\end{itemize}
 	\end{exampleblock}
 \end{frame}
@@ -158,18 +162,14 @@
 \begin{frame}
 	\frametitle{Sprint Review}
 	\begin{block}{Key Concept}
-		\begin{itemize}
-			\item Inspect the Increment and adapt the Product Backlog if needed
-			\item Collaborate on the next things that could be done to optimize value
-		\end{itemize}
+		Inspect the outcome of the Sprint and determine future adaptations
 	\end{block}
 	\vspace{0.5em}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item Held at the end of each Sprint
+		\item Held at the end of the Sprint, before the Sprint Retrospective
 		\item Max duration: 4 hours for a one-month Sprint
-		\item Attendees: All Scrum Team members and Stakeholders\\
-		(Invited by the Product Owner)
+		\item Attendees: All Scrum Team members and Stakeholders
 	\end{itemize}
 \end{frame}
 
@@ -177,46 +177,24 @@
 	\frametitle{Sprint Review}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item The Sprint Review is \textbf{not} a demo
-		\item The presentation of the Increment is intended to elicit feedback and foster collaboration
-		\item Result: A revised Product Backlog that defines the \textit{probable} Product Backlog Items for the next Sprint
+		\item The Sprint Review is a \textit{working session} and the Scrum Team should avoid limiting it to a presentation
+		\item The Product Backlog may be adjusted following the Sprint Review to meet new opportunities
 	\end{itemize}
-	\visible<2->{
-		\vspace{1em}
-		\begin{alertblock}{Important}
-			The Sprint Review is an informal meeting, not a status meeting
-		\end{alertblock}
-	}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Sprint Retrospective}
 	\begin{block}{Key Concept}
 		\begin{itemize}
-			\item Identify how the last Sprint went with regards to people, relationships, processes and tools
-			\item Identify improvements and create a plan for implementing them
+			\item Inspect how the last Sprint went with regards to individuals, interactions, processes, tools and the Definition of Done
+			\item Identify the most helpful changes and \textit{address} them as soon as possible
 		\end{itemize}
 	\end{block}
 	\vspace{0.5em}
 	\begin{itemize}
 		\setlength\itemsep{0.7em}
-		\item Occurs after the Sprint Review and prior to the next Sprint Planning
+		\item Last event of the Sprint
 		\item Max duration: 3 hours for a one-month Sprint
 		\item Attendees: All Scrum Team members
 	\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Sprint Retrospective}
-	\begin{itemize}
-		\setlength\itemsep{0.7em}
-		\item The Scrum Master participates as peer team member from the accountability over the Scrum process
-		\item By the end of the Retrospective the Scrum Team should have identified improvements that it will implement in the next Sprint
-	\end{itemize}
-	\visible<2->{
-		\vspace{1em}
-		\begin{alertblock}{Important}
-			The Scrum Master ensures that the meeting is positive and productive
-		\end{alertblock}
-	}
 \end{frame}
